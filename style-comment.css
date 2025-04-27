@@ -1,0 +1,108 @@
+/* General Page Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f5f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background: #007BFF;
+    padding: 12px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Comments Section */
+.comments-section {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.comments-section h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Comment Form */
+#commentForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+#commentForm input,
+#commentForm textarea {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#commentForm textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+#commentForm button {
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#commentForm button:hover {
+    background-color: #0056b3;
+}
+
+/* Comments List */
+#commentList {
+    margin-top: 20px;
+}
+
+.comment-item {
+    background: #f1f3f5;
+    border-left: 5px solid #007BFF;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.comment-item strong {
+    font-size: 1.1rem;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.comment-item p {
+    margin: 0;
+    color: #555;
+    font-size: 0.95rem;
+}

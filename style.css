@@ -1,0 +1,86 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav {
+    background: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 30px;
+}
+
+/* Welcome Section */
+.welcome h1 {
+    font-size: 3rem;
+    color: #4CAF50;
+}
+
+/* Game Section */
+.game-section {
+    margin-top: 20px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border: 2px solid #333;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.status {
+    margin: 20px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Comments Section */
+.comments-section input, .comments-section textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.comments-section button {
+    margin-top: 10px;
+}
+
+.comment-item {
+    margin-top: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: left;
+}
